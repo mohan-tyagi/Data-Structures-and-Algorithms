@@ -24,5 +24,7 @@ for (i=0;i<MX-1;++i)    // outer loop for passes
 }
 // printing the  sorted (descending) array
 	 for (i=0;i<MX;++i)
-printf("sales[%d] = %d\n",i,sales[i]);
+	 {
+	 	printf("sales[%d] = %d\n",i,sales[i]);
+	 }
 }
