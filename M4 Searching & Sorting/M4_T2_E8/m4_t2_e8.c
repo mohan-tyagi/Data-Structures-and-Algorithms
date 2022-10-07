@@ -13,7 +13,7 @@ for (i=0;i<MX-1;++i)    // outer loop for passes
 {
 	for (j=0;j<(MX-i)-1;++j) // inner loop for comparisons
 	{
-		if (marks[j]>marks[j+1]) // interchange if condition is true 
+		if (marks[j]<marks[j+1]) // interchange if condition is true 
 		{
 			temp=marks[j];   // assigning  value of first element into temp
 			marks[j]=marks[j+1];  // assigning value of second element into first one
